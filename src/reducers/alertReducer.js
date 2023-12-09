@@ -8,7 +8,7 @@ const initialAlert = {
     alert: null
 }
 
-export default function(state = initialAlert, action){
+export default function alertReducers(state = initialAlert, action){
     switch(action.type){
         case SHOW_ALERT:
             return {

@@ -98,7 +98,7 @@ const downloadProductsError = () => ({
 //SELECT AND DELETE PRODUCT
 export function deleteProductAction(id){
     return async (dispatch) => {
-        dispatch( getProductDelete());
+        dispatch( getProductDelete(id));
         try {
            await clientAxios.delete(`/products/${id}`)
            dispatch( deleteProductSuccess())
