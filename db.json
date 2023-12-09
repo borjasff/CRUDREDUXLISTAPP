@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Carrot juice",
+      "price": "10123"
+    },
+    {
+      "id": 2,
+      "name": "Orange juice",
+      "price": "1"
+    },
+    {
+      "name": "Apple juice",
+      "price": "15",
+      "id": 3
+    },
+    {
+      "name": "Rib Eye 800g",
+      "price": "20",
+      "id": 4
+    },
+    {
+      "name": "Strawberry juice",
+      "price": "12",
+      "id": 5
+    }
+  ]
+}
